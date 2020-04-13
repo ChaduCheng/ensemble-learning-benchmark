@@ -2,13 +2,13 @@
 This repository will present the current work of ensemble learning and other related things
 
 drawbacks on exisiing adversarial and certified training techniques with single DNN:
-[loss of invariance](https://arxiv.org/pdf/2002.04599.pdf)
-[sensitivity](https://openreview.net/pdf?id=S1xNEhR9KX)
+[loss of invariance](https://arxiv.org/pdf/2002.04599.pdf)  
+[sensitivity](https://openreview.net/pdf?id=S1xNEhR9KX)  
 
 
 Existing ensemble learning method:
 
-[Adversarial Training](https://arxiv.org/abs/1705.07204)
+[Adversarial Training](https://arxiv.org/abs/1705.07204)  
 [Increase natural accuracy of robust training](https://arxiv.org/pdf/2002.11572.pdf)
 [Increase certified radius](https://arxiv.org/pdf/1910.14655.pdf)
 diversity training to design ensemble to increase robustness:
