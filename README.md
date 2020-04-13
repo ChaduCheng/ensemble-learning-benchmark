@@ -12,9 +12,9 @@ Existing ensemble learning method:
 [Increase natural accuracy of robust training](https://arxiv.org/pdf/2002.11572.pdf)  
 [Increase certified radius](https://arxiv.org/pdf/1910.14655.pdf)  
 diversity training to design ensemble to increase robustness:  
-[1](https://arxiv.org/pdf/1901.08846.pdf)  
-[2](https://arxiv.org/pdf/1901.09981.pdf)  
-[3](https://arxiv.org/pdf/1912.09059.pdf)  
+[Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/pdf/1901.08846.pdf)  
+[Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/pdf/1901.09981.pdf)  
+[n-ML: Mitigating Adversarial Examples via Ensembles of Topologically Manipulated Classifiers](https://arxiv.org/pdf/1912.09059.pdf)  
 [Ensemble the adv and certified training(ICLR 2020)](https://openreview.net/forum?id=SJxSDxrKDr)  
 
 
@@ -27,9 +27,9 @@ Different Metrics:
 Some naive solutions of our problem:  
 [self-supervised](https://arxiv.org/pdf/2003.12862.pdf)  
 principled framework:  
-[1](https://papers.nips.cc/paper/8443-resnets-ensemble-via-the-feynman-kac-formalism-to-improve-natural-and-robust-accuracies.pdf)  
-[2](https://www.researchgate.net/profile/Jiacen_Xu2/publication/333679480_Beyond_Adversarial_Training_Min-Max_Optimization_in_Adversarial_Attack_and_Defense/links/5dbfb886a6fdcc212800a8ef/Beyond-Adversarial-Training-Min-Max-Optimization-in-Adversarial-Attack-and-Defense.pdf)  
-[2](https://arxiv.org/pdf/2002.04237.pdf)  
+[ResNets Ensemble via the Feynman-Kac Formalism to Improve Natural and Robust Accuracies](https://papers.nips.cc/paper/8443-resnets-ensemble-via-the-feynman-kac-formalism-to-improve-natural-and-robust-accuracies.pdf)  
+[Towards A Unified Min-Max Framework for Adversarial Exploration and Robustness(https://www.researchgate.net/profile/Jiacen_Xu2/publication/333679480_Beyond_Adversarial_Training_Min-Max_Optimization_in_Adversarial_Attack_and_Defense/links/5dbfb886a6fdcc212800a8ef/Beyond-Adversarial-Training-Min-Max-Optimization-in-Adversarial-Attack-and-Defense.pdf)  
+[Improving the affordability of robustness training for DNNs](https://arxiv.org/pdf/2002.04237.pdf)  
 
 
 Designing models robust on multiple perturbations:  
