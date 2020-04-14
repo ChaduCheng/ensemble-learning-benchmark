@@ -37,6 +37,6 @@ Designing models robust on multiple perturbations:
 [Provable robustness against all adversarial](https://arxiv.org/pdf/1905.11213.pdf)  
 
 
-| algorithm | accuracy |
-| --------- | -------- |
-| [drawback](https://arxiv.org/pdf/2002.11572.pdf) | 95.6% |
+%| algorithm | accuracy |
+%| --------- | -------- |
+%| [drawback](https://arxiv.org/pdf/2002.11572.pdf) | 95.6% |
