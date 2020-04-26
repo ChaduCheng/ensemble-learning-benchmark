@@ -16,7 +16,7 @@ This repository will present some interesting papers bout the current work of en
 * [Adversarial Training](https://arxiv.org/abs/1705.07204)  
 (ICLR 2019)  
 (Florian Tramer et al)  
-[code](https://github.com/ftramer/ensemble-adv-training)
+[ftramer_code](https://github.com/ftramer/ensemble-adv-training)
 * [Increase natural accuracy of robust training](https://arxiv.org/pdf/2002.11572.pdf)  
 (ICLR workshop 2020)  
 (Aditya Saligrama et al)  
