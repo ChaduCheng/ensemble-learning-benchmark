@@ -1,6 +1,6 @@
 # ensemble-learning-benchmark
 The purpose of our project is to design a new ensemble learning models with some better metric value, like accuracy, robustness, etc. 
-This repository will present some interesting papers bout the current work of ensemble learning and other related informations. Also, we will put some good results about ensemble learning and other things to this repository. This repository will keep to be updated. 
+This repository will present some interesting papers bout the current work of ensemble learning and other related information. Also, we will put some good results on ensemble learning and other things to this repository. This repository will keep being updated. 
 
 ## Drawbacks on exisiing adversarial and certified training techniques with single DNN:  
 * [loss of invariance](https://arxiv.org/pdf/2002.04599.pdf)  
@@ -73,4 +73,4 @@ This repository will present some interesting papers bout the current work of en
 (Francesco Groce et al)  
 
 
-Last updated: April 14, 2020
+Last updated: April 25, 2020
