@@ -25,8 +25,9 @@ This repository will present some interesting papers bout the current work of en
 (Yanpei Liu et al)  
 **contents**: The ensemble learning method proposed in this paper is based on adding all pre-trained models together and train them. This paper claims that they are the first one to study this topic over large models and a large scale dataset. And the first paper to study non-targeted attack and targeted attack in this area. 
 #### modify loss function:    
-
-
+* Meta-learning Enabled Adversarial Training  
+(Yiyi Tao, Bo Li et al)
+**content**: First meta-learning based adversarial training approach. Execute ensemble leraning by modifying the models' parameters.  
 ### data augments:
 * [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204)  
 (ICLR 2019)  
