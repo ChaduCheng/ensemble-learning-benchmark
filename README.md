@@ -21,6 +21,10 @@ This repository will present some interesting papers bout the current work of en
 (arXiv 31 oct 2019)  
 (Huan Zhang et al)  
 **content**: This paper proposes an algorithm to enhance certified robustness of a deep model ensemble by optimally weighting each base model.  
+* [Ensemble the adv and certified training](https://openreview.net/forum?id=SJxSDxrKDr)  
+(ICLR 2020)  
+(Mislav Balunovic et al)  
+**content** This paper present COLT, a new method to train neural networks based on a novel combination of adversarial training and provable defense.  
 
 #### modify loss function:    
 
@@ -59,9 +63,6 @@ This repository will present some interesting papers bout the current work of en
 **content**: This paper propose *Diversity Training*, a novel method to train an ensemble of models with uncorrelated loss functions.This method focuses on modifying loss function.They try to improve the robustness by reduce adversarial subspace.
 
 
-* [Ensemble the adv and certified training](https://openreview.net/forum?id=SJxSDxrKDr)  
-(ICLR 2020)  
-(Mislav Balunovic et al)  
 
 ## Some new discoveries of adversarial training's characteristics:  
 * [loss of invariance: Fundamental Tradeoffs between Invariance and Sensitivity to Adversarial Perturbations](https://arxiv.org/pdf/2002.04599.pdf)  
@@ -104,7 +105,6 @@ This repository will present some interesting papers bout the current work of en
 
 
 
-## Designing models robust on multiple perturbations:  
 
 
 
