@@ -5,7 +5,9 @@ This repository will present some interesting papers bout the current work of en
 ## Ensemble learning method and some other methods similar to ensemble learning:
 
 ### model-base:  
+
 #### modify the network structure or congregate models:  
+
 [ftramer_code](https://github.com/ftramer/ensemble-adv-training)
 * [Revisiting Ensemble in Adversarial Context: Improving natural accuracy](https://arxiv.org/pdf/2002.11572.pdf)  
 (ICLR workshop 2020)  
@@ -14,12 +16,24 @@ This repository will present some interesting papers bout the current work of en
 * [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770)  
 (ICLR 2017)  
 (Yanpei Liu et al)  
-**contents**: The ensemble learning method proposed in this paper is based on adding all pre-trained models together and train them. This paper claims that they are the first one to study this topic over large models and a large scale dataset. And the first paper to study non-targeted attack and targeted attack in this area. 
+**contents**: The ensemble learning method proposed in this paper is based on adding all pre-trained models together and train them. This paper claims that they are the first one to study this topic over large models and a large scale dataset. And the first paper to study non-targeted attack and targeted attack in this area.  
+* [Enhance certified radius via a Deep Model Ensemble](https://arxiv.org/pdf/1910.14655.pdf)  
+(arXiv 31 oct 2019)  
+(Huan Zhang et al)  
+**content**: This paper proposes an algorithm to enhance certified robustness of a deep model ensemble by optimally weighting each base model.  
+
 #### modify loss function:    
+
 * Meta-learning Enabled Adversarial Training  
 (Yiyi Tao, Bo Li et al)
 **content**: First meta-learning based adversarial training approach. Execute ensemble leraning by modifying the models' parameters.  
+* [Provable robustness against all adversarial](https://arxiv.org/pdf/1905.11213.pdf)  
+(arXiv 27 May 2019)  
+(Francesco Groce et al)  
+**content**: This paper propse a new regularization scheme for ReLU networks which enforces robustness and show how that leads to provably robust models.
+
 ### data augments:
+
 * [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204)  
 (ICLR 2019)  
 (Florian Tramer et al)  
@@ -28,19 +42,23 @@ This repository will present some interesting papers bout the current work of en
 (arXiv 18 Oct 2019)  
 (Florian Tramer et al)  
 **content**: This paper's aim is to understand the reasons underlying the robustness trade-off, and to train models that are simultaneously robust to multiple perturbation types.
-
-* [Enhance certified radius via a Deep Model Ensemble](https://arxiv.org/pdf/1910.14655.pdf)  
-(arXiv 31 oct 2019)  
-(Huan Zhang et al)  
-* [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/pdf/1901.08846.pdf)  
-(arXiv 29 May 2019)  
-(Tianyu Pang et al)  
-* [Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/pdf/1901.09981.pdf)  
-(arXiv 28 Jan 2019)  
-(Sanjay Kariyappa)  
 * [n-ML: Mitigating Adversarial Examples via Ensembles of Topologically Manipulated Classifiers](https://arxiv.org/pdf/1912.09059.pdf)  
 (arXiv 19 Dec 2019)  
 (Mahmood Sharif et al)  
+**contents**: This paper propose a new defense called n-ML against adv examples. inputs crefted by perturbing benign inputs by small amounts to induce misclassifications by classifiers. 
+
+
+## Improving the performance of ensemble learning:
+* [Improving Adversarial Robustness via Promoting Ensemble Diversity](https://arxiv.org/pdf/1901.08846.pdf)  
+(arXiv 29 May 2019)  
+(Tianyu Pang et al)  
+**content**: This paper presents a method that explores the interaction among individual networks to improve robustness for ensemble modles. They define a new notion of ensemble diversity.  
+* [**Improving Adversarial Robustness of Ensembles with Diversity Training**](https://arxiv.org/pdf/1901.09981.pdf)  
+(arXiv 28 Jan 2019)  
+(Sanjay Kariyappa)  
+**content**: This paper propose *Diversity Training*, a novel method to train an ensemble of models with uncorrelated loss functions.This method focuses on modifying loss function.They try to improve the robustness by reduce adversarial subspace.
+
+
 * [Ensemble the adv and certified training](https://openreview.net/forum?id=SJxSDxrKDr)  
 (ICLR 2020)  
 (Mislav Balunovic et al)  
@@ -88,9 +106,7 @@ This repository will present some interesting papers bout the current work of en
 
 ## Designing models robust on multiple perturbations:  
 
-* [Provable robustness against all adversarial](https://arxiv.org/pdf/1905.11213.pdf)  
-(arXiv 27 May 2019)  
-(Francesco Groce et al)  
+
 
 
 Last updated: April 25, 2020
