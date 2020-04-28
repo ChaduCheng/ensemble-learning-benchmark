@@ -24,7 +24,7 @@ This repository will present some interesting papers bout the current work of en
 (ICLR 2019)  
 (Florian Tramer et al)  
 **contents**: This paper propose ensemble learning mainly by using data augments. It seems that the first paper to study ensemble learning.  
-** * [Adversarial Training and Robustness for Multiple Perturbations](https://arxiv.org/pdf/1904.13000.pdf) ** 
+* [**Adversarial Training and Robustness for Multiple Perturbations**](https://arxiv.org/pdf/1904.13000.pdf) 
 (arXiv 18 Oct 2019)  
 (Florian Tramer et al)  
 **content**: This paper's aim is to understand the reasons underlying the robustness trade-off, and to train models that are simultaneously robust to multiple perturbation types.
