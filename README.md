@@ -2,15 +2,6 @@
 The purpose of our project is to design a new ensemble learning models with some better metric value, like accuracy, robustness, etc. 
 This repository will present some interesting papers bout the current work of ensemble learning and other related information. Also, we will put some good results on ensemble learning and other things to this repository. This repository will keep being updated. 
 
-## Drawbacks on exisiing adversarial and certified training techniques with single DNN:  
-* [loss of invariance](https://arxiv.org/pdf/2002.04599.pdf)  
-(arXiv 11 Feb 2020)  
-(Florian Tramer et al)  
-* [On the ensitivity of adversarial robustness to input data distributions](https://openreview.net/pdf?id=S1xNEhR9KX)  
-(ICLR 2019)  
-(Gavin Weiguang Ding et al)  
-**Content**: there are existing relationship between adversarial robustness and the input data distribution.  
-
 ## Ensemble learning method and some other methods similar to ensemble learning:
 
 ### model-base:  
@@ -50,6 +41,16 @@ This repository will present some interesting papers bout the current work of en
 * [Ensemble the adv and certified training](https://openreview.net/forum?id=SJxSDxrKDr)  
 (ICLR 2020)  
 (Mislav Balunovic et al)  
+
+## Some new discoveries of adversarial training's characteristics:  
+* [loss of invariance: Fundamental Tradeoffs between Invariance and Sensitivity to Adversarial Perturbations](https://arxiv.org/pdf/2002.04599.pdf)  
+(arXiv 11 Feb 2020)  
+(Florian Tramer et al)  
+**Content**: Instead of studying sensitivity-based adversarial examples, this paper studies invariance-based adv examples, which introduce minimal semantic changes that modify an input's true label yet preserve the model's prediction.  
+* [Sensitivity: On the sensitivity of adversarial robustness to input data distributions](https://openreview.net/pdf?id=S1xNEhR9KX)  
+(ICLR 2019)  
+(Gavin Weiguang Ding et al)  
+**Content**: there are existing relationship between adversarial robustness and the input data distribution.  
 
 ## Different Metrics:   
 * [Robustness May Be at Odds with Accuracy](https://openreview.net/forum?id=SyxAb30cY7)  
