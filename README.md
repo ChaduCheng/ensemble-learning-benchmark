@@ -10,7 +10,7 @@ This repository will present some interesting papers bout the current work of en
 * [Revisiting Ensemble in Adversarial Context: Improving natural accuracy](https://arxiv.org/pdf/2002.11572.pdf)  
 (ICLR workshop 2020)  
 (Aditya Saligrama et al)  
-**content**: Desin an ensemble learning system could improve natural accuracy. This paper executes ensemble learning based on composite models.  
+**content**: Design an ensemble learning system could improve natural accuracy. This paper executes ensemble learning based on composite models.  
 * [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770)  
 (ICLR 2017)  
 (Yanpei Liu et al)  
@@ -24,7 +24,10 @@ This repository will present some interesting papers bout the current work of en
 (ICLR 2019)  
 (Florian Tramer et al)  
 **contents**: This paper propose ensemble learning mainly by using data augments. It seems that the first paper to study ensemble learning.  
-
+** * [Adversarial Training and Robustness for Multiple Perturbations](https://arxiv.org/pdf/1904.13000.pdf) ** 
+(arXiv 18 Oct 2019)  
+(Florian Tramer et al)  
+**content**: This paper's aim is to understand the reasons underlying the robustness trade-off, and to train models that are simultaneously robust to multiple perturbation types.
 
 * [Enhance certified radius via a Deep Model Ensemble](https://arxiv.org/pdf/1910.14655.pdf)  
 (arXiv 31 oct 2019)  
@@ -56,18 +59,21 @@ This repository will present some interesting papers bout the current work of en
 * [Robustness May Be at Odds with Accuracy](https://openreview.net/forum?id=SyxAb30cY7)  
 (ICLR 2019)  
 (Dimitris Tsipras et al)  
+**contents**: There are existing inherent tension between the goal of adv robustness and that of generalization. The trade-off between the standard accuracy of a model and its robustness to adv perturbations provably exists even in a fairly simple an natural setting.  
 * [Fundamental Tradeoffs between Invariance and Sensitivity to Adversarial Perturbations](https://arxiv.org/pdf/2002.04599.pdf)
 (arXiv 11 Feb 2020)  
 (Florian Tramer et al)  
+**contents**: There are existing trade-off between invariance-based adv examples and sensitivity-based adv examples.  
 * [Are Adversarial Robustness and Common Perturbation Robustness Independant Attributes ?](http://openaccess.thecvf.com/content_ICCVW_2019/papers/RLQ/Laugros_Are_Adversarial_Robustness_and_Common_Perturbation_Robustness_Independant_Attributes__ICCVW_2019_paper.pdf)  
 (ICCV workshop 2019)  
 (Alfred Laugros et al)
+**contents**: This paper talks about the relationship between the adversarial robustness and common perturbations. This paper wants to talk about the question about what extent the adversarial robutsness is related to the global robustness. 
 
-
-## Some naive solutions of our problem:  
-* [self-supervised](https://arxiv.org/pdf/2003.12862.pdf)   
+## Some methods that are helpful to our problems:  
+* [self-supervised: Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf)   
 (arXiv 28 March 2020)    
 (Tianlong Chen et al)  
+**Contents**: Introduce adversarial training into self-supervision, to provide general-purpose robust pretrained models for the first time.  
 * [ResNets Ensemble via the Feynman-Kac Formalism to Improve Natural and Robust Accuracies](https://papers.nips.cc/paper/8443-resnets-ensemble-via-the-feynman-kac-formalism-to-improve-natural-and-robust-accuracies.pdf)  
 (NIPS 2019)  
 (Bao Wang et al)  
@@ -81,9 +87,7 @@ This repository will present some interesting papers bout the current work of en
 
 
 ## Designing models robust on multiple perturbations:  
-* [Adversarial Training and Robustness for Multiple Perturbations](https://arxiv.org/pdf/1904.13000.pdf)  
-(arXiv 18 Oct 2019)  
-(Florian Tramer et al)  
+
 * [Provable robustness against all adversarial](https://arxiv.org/pdf/1905.11213.pdf)  
 (arXiv 27 May 2019)  
 (Francesco Groce et al)  
