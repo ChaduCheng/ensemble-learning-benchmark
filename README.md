@@ -6,10 +6,10 @@ This repository will present some interesting papers bout the current work of en
 * [loss of invariance](https://arxiv.org/pdf/2002.04599.pdf)  
 (arXiv 11 Feb 2020)  
 (Florian Tramer et al)  
-* [sensitivity](https://openreview.net/pdf?id=S1xNEhR9KX)  
+* [On the ensitivity of adversarial robustness to input data distributions](https://openreview.net/pdf?id=S1xNEhR9KX)  
 (ICLR 2019)  
 (Gavin Weiguang Ding et al)  
-
+**Content**: there are existing relationship between adversarial robustness and the input data distribution.
 
 ## Existing ensemble learning method:
 
