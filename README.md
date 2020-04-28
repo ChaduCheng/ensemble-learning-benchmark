@@ -9,17 +9,31 @@ This repository will present some interesting papers bout the current work of en
 * [On the ensitivity of adversarial robustness to input data distributions](https://openreview.net/pdf?id=S1xNEhR9KX)  
 (ICLR 2019)  
 (Gavin Weiguang Ding et al)  
-**Content**: there are existing relationship between adversarial robustness and the input data distribution.
+**Content**: there are existing relationship between adversarial robustness and the input data distribution.  
 
-## Existing ensemble learning method:
+## Ensemble learning method and some other methods similar to ensemble learning:
 
-* [Adversarial Training](https://arxiv.org/abs/1705.07204)  
-(ICLR 2019)  
-(Florian Tramer et al)  
+### model-base:  
+#### modify the network structure or congregate models:  
 [ftramer_code](https://github.com/ftramer/ensemble-adv-training)
-* [Increase natural accuracy of robust training](https://arxiv.org/pdf/2002.11572.pdf)  
+* [Revisiting Ensemble in Adversarial Context: Improving natural accuracy](https://arxiv.org/pdf/2002.11572.pdf)  
 (ICLR workshop 2020)  
 (Aditya Saligrama et al)  
+**content**: Desin an ensemble learning system could improve natural accuracy. This paper executes ensemble learning based on composite models.  
+* [Delving into Transferable Adversarial Examples and Black-box Attacks](https://arxiv.org/abs/1611.02770)  
+(ICLR 2017)  
+(Yanpei Liu et al)  
+**contents**: The ensemble learning method proposed in this paper is based on adding all pre-trained models together and train them. This paper claims that they are the first one to study this topic over large models and a large scale dataset. And the first paper to study non-targeted attack and targeted attack in this area. 
+#### modify loss function:    
+
+
+### data augments:
+* [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204)  
+(ICLR 2019)  
+(Florian Tramer et al)  
+**contents**: This paper propose ensemble learning mainly by using data augments. It seems that the first paper to study ensemble learning.  
+
+
 * [Enhance certified radius via a Deep Model Ensemble](https://arxiv.org/pdf/1910.14655.pdf)  
 (arXiv 31 oct 2019)  
 (Huan Zhang et al)  
