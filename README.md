@@ -8,7 +8,7 @@ This repository will present some interesting papers bout the current work of en
 
 #### modify the network structure or congregate models:  
 
-[ftramer_code](https://github.com/ftramer/ensemble-adv-training)
+
 * [Revisiting Ensemble in Adversarial Context: Improving natural accuracy](https://arxiv.org/pdf/2002.11572.pdf)  
 (ICLR workshop 2020)  
 (Aditya Saligrama et al)  
@@ -41,6 +41,7 @@ This repository will present some interesting papers bout the current work of en
 * [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204)  
 (ICLR 2019)  
 (Florian Tramer et al)  
+[ftramer_code](https://github.com/ftramer/ensemble-adv-training)
 **contents**: This paper propose ensemble learning mainly by using data augments. It seems that the first paper to study ensemble learning.  
 * [**Adversarial Training and Robustness for Multiple Perturbations**](https://arxiv.org/pdf/1904.13000.pdf) 
 (arXiv 18 Oct 2019)  
