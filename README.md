@@ -34,7 +34,12 @@ This repository will present some interesting papers bout the current work of en
 * [Provable robustness against all adversarial](https://arxiv.org/pdf/1905.11213.pdf)  
 (arXiv 27 May 2019)  
 (Francesco Groce et al)  
-**content**: This paper propse a new regularization scheme for ReLU networks which enforces robustness and show how that leads to provably robust models.
+**content**: This paper propse a new regularization scheme for ReLU networks which enforces robustness and show how that leads to provably robust models.  
+* [self-supervised and using adversarial fine-tuning: Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf)   
+(arXiv 28 March 2020)    
+(Tianlong Chen et al)  
+[(code and models training method)](https://github.com/TAMU-VITA/Adv-SS-Pretraining)
+**Contents**: This paper tries to  and reveal that adversarial fine-tune contributes a lot to robustness improvement. They also use ensemble learning and do experiments on different unforeseen attack. For their loss functiong, this paper propose a regularization parameter to promote diversity.  
 
 ### data augments:
 
@@ -94,10 +99,11 @@ This repository will present some interesting papers bout the current work of en
 **contents**: This paper talks about the relationship between the adversarial robustness and common perturbations. This paper wants to talk about the question about what extent the adversarial robutsness is related to the global robustness. 
 
 ## Some methods that are helpful to our problems:  
-* [self-supervised: Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf)   
+* [self-supervised and using adversarial fine-tuning: Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf)   
 (arXiv 28 March 2020)    
 (Tianlong Chen et al)  
-**Contents**: Introduce adversarial training into self-supervision, to provide general-purpose robust pretrained models for the first time.  
+[(code and models training method)](https://github.com/TAMU-VITA/Adv-SS-Pretraining)
+**Contents**: This paper tries to  and reveal that adversarial fine-tune contributes a lot to robustness improvement. They also use ensemble learning and do experiments on different unforeseen attack.  
 * [ResNets Ensemble via the Feynman-Kac Formalism to Improve Natural and Robust Accuracies](https://papers.nips.cc/paper/8443-resnets-ensemble-via-the-feynman-kac-formalism-to-improve-natural-and-robust-accuracies.pdf)  
 (NIPS 2019)  
 (Bao Wang et al)  
