@@ -116,12 +116,12 @@ This repository will present some interesting papers bout the current work of en
 * [ResNets Ensemble via the Feynman-Kac Formalism to Improve Natural and Robust Accuracies](https://papers.nips.cc/paper/8443-resnets-ensemble-via-the-feynman-kac-formalism-to-improve-natural-and-robust-accuracies.pdf)  
 (NIPS 2019)  
 (Bao Wang et al)  
-[(code)](https://github.com/BaoWangMath/EnResNet)
+[(code)](https://github.com/BaoWangMath/EnResNet)  
 **contents**: Based on the unified viewpoint, this paper proposes a simple yet effective ResNets ensemble algorithm to boost the accuracy of the robustly trained model on both clean and adversarial images.  
 * [Towards A Unified Min-Max Framework for Adversarial Exploration and Robustness](https://www.researchgate.net/profile/Jiacen_Xu2/publication/333679480_Beyond_Adversarial_Training_Min-Max_Optimization_in_Adversarial_Attack_and_Defense/links/5dbfb886a6fdcc212800a8ef/Beyond-Adversarial-Training-Min-Max-Optimization-in-Adversarial-Attack-and-Defense.pdf)  
 (arXiv 29 Sep 2019)  
 (Jingkang Wang et al)  
-[(code)](https://github.com/kuangliu/pytorch-cifar)
+[(code)](https://github.com/kuangliu/pytorch-cifar)  
 **contents**:Min-max problems, mostly in the adversarial training(AT) case, beyond the purpose of AT has not been rigorously explored in the research of adversarial attacks and defense. The paper shows that this weakness can be sobled under a unified and theoretically principled min-max optimization framework.  
 * [Improving the affordability of robustness training for DNNs](https://arxiv.org/pdf/2002.04237.pdf)  
 (arXiv 11 Feb 2020)  
@@ -131,7 +131,7 @@ This repository will present some interesting papers bout the current work of en
 [Ensemble adversarial black-box attacks against deep learning systems](https://www.sciencedirect.com/science/article/abs/pii/S0031320319304844)  
 (Pattern Recognition)  
 (Jie Hang et al)  
-[(code)][https://github.com/HangJie720/Ensemble_Adversarial_Attack]  
+[(code)](https://github.com/HangJie720/Ensemble_Adversarial_Attack)  
 **contents**:## In this paper, the authors attempt to ensemble multiple pre-trained substitute models to produce adversarial examples with more powerful transferability in the form of selective cascade ensemble and stack parallel ensemble.  
 
 
