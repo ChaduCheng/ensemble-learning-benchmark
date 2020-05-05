@@ -122,17 +122,18 @@ This repository will present some interesting papers bout the current work of en
 (arXiv 29 Sep 2019)  
 (Jingkang Wang et al)  
 [(code)](https://github.com/kuangliu/pytorch-cifar)  
-**contents**:Min-max problems, mostly in the adversarial training(AT) case, beyond the purpose of AT has not been rigorously explored in the research of adversarial attacks and defense. The paper shows that this weakness can be sobled under a unified and theoretically principled min-max optimization framework.  
+**contents**: Min-max problems, mostly in the adversarial training(AT) case, beyond the purpose of AT has not been rigorously explored in the research of adversarial attacks and defense. The paper shows that this weakness can be sobled under a unified and theoretically principled min-max optimization framework.  
 * [Improving the affordability of robustness training for DNNs](https://arxiv.org/pdf/2002.04237.pdf)  
 (arXiv 11 Feb 2020)  
 (Sidharth Gupta et al)  
+**contents**: PGD based adversarial training has become one of the most prominent methods. However, the computational complexity is a longstanding problem and may be prohibitive when using larger and more complex models. This paper shows that the initial phase of adversarial training can be replaced with natural training. And this efficiency gain can be achieved without any loss in accuracy on naural and adversarial test examples.
 
 ## Attack:  
 [Ensemble adversarial black-box attacks against deep learning systems](https://www.sciencedirect.com/science/article/abs/pii/S0031320319304844)  
 (Pattern Recognition)  
 (Jie Hang et al)  
 [(code)](https://github.com/HangJie720/Ensemble_Adversarial_Attack)  
-**contents**:## In this paper, the authors attempt to ensemble multiple pre-trained substitute models to produce adversarial examples with more powerful transferability in the form of selective cascade ensemble and stack parallel ensemble.  
+**contents**: In this paper, the authors attempt to ensemble multiple pre-trained substitute models to produce adversarial examples with more powerful transferability in the form of selective cascade ensemble and stack parallel ensemble.  
 
 
 Last updated: May 5, 2020
