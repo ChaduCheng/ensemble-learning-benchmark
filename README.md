@@ -41,7 +41,7 @@ This repository will present some interesting papers bout the current work of en
 * [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204)  
 (ICLR 2019)  
 (Florian Tramer et al)  
-[(ftramer_code)](https://github.com/ftramer/ensemble-adv-training)
+[(ftramer_code)](https://github.com/ftramer/ensemble-adv-training)  
 **contents**: This paper propose ensemble learning mainly by using data augments. It seems that the first paper to study ensemble learning.  
 * [**Adversarial Training and Robustness for Multiple Perturbations**](https://arxiv.org/pdf/1904.13000.pdf) 
 (arXiv 18 Oct 2019)  
@@ -54,7 +54,7 @@ This repository will present some interesting papers bout the current work of en
 * [Testing Robustness Against Unforeseen Adversarial](https://arxiv.org/abs/1908.08016)  
 (arXiv 19 Aug 2019)  
 (Daniel Kang et al)  
-[(code and perturbation data)](https://github.com/ddkang/advex-uar)
+[(code and perturbation data)](https://github.com/ddkang/advex-uar)  
 **contents**: This paper propose a methodology for evaluating a defense against a diverse range of distrotion types and also use a summary metric UAR to measure the unforeseen attack robustness against distortion. 
 
 ## Improving the performance of ensemble learning:
