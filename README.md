@@ -97,7 +97,7 @@ This repository will present some interesting papers bout the current work of en
 [(Mnist code)](https://github.com/MadryLab/mnist_challenge/)  
 [(Cifar10 code)](https://github.com/MadryLab/cifar10_challenge/)  
 **contents**: There are existing inherent tension between the goal of adv robustness and that of generalization. The trade-off between the standard accuracy of a model and its robustness to adv perturbations provably exists even in a fairly simple an natural setting.  
-* [Fundamental Tradeoffs between Invariance and Sensitivity to Adversarial Perturbations](https://arxiv.org/pdf/2002.04599.pdf)
+* [Fundamental Tradeoffs between Invariance and Sensitivity to Adversarial Perturbations](https://arxiv.org/pdf/2002.04599.pdf)  
 (arXiv 11 Feb 2020)  
 (Florian Tramer et al)  
 [code](https://github.com/ftramer/Excessive-Invariance)  
